@@ -13,7 +13,7 @@ interface IERC721 {
     function tokenOfOwnerByIndex(address owner, uint256 index)
         external
         view
-        returns (uint256 tokenId);
+        returns (uint256 tokenIsd);
 
     function transferFrom(
         address from,
